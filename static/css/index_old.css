@@ -1,0 +1,25 @@
+
+
+.header {
+    background: lightskyblue;
+    text-align: center;
+    padding:1cm;
+}
+
+.passage {
+    font-size: xx-large;
+    padding: 1cm;
+}
+
+
+.footer {
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 10px;
+    margin-top: 100px;
+    /*background-color: #dddddd;*/
+    text-align: center;
+    font-size: x-small;
+}

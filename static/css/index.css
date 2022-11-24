@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: #666;
+    text-decoration: none;
+}
+
+#container{
+    width: 1000px;
+    height: 1500px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+/* 导航 */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+/* 导航栏样式 */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* 右侧链接*/
+.navbar a.right {
+    float: right;
+}
+
+/* 鼠标移动到链接的颜色 */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.header{
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+    background-image: url("../img/top-img1.png");
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+#hd_word{
+    padding-top: 470px;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px #000000;
+    color: #fff
+}
+
+#aside{
+    float: left;
+    width: 300px;
+    height: 300px;
+    background-color: #ffffff;
+    position: sticky;
+    top: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#photo img{
+    width: 90px;
+    height: 90px;
+    margin-top: 20px;
+    margin-left: 100px;
+    border: rgba(255,255,255,.4) 4px solid;
+    border-radius: 50%;
+}
+
+#name{
+    text-align: center;
+}
+
+#desc{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#desc p{
+    margin: 5px 0;
+}
+
+img{
+    vertical-align: center;
+}
+
+#content{
+    float: right;
+    width: 680px;
+    height: 1000px;
+    background-color: #ecebeb;
+}
+
+#footer {
+    /*position: fixed;*/
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 10px;
+    margin-top: 100px;
+    /*background-color: #dddddd;*/
+    text-align: center;
+    font-size: x-small;
+}
