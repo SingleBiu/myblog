@@ -47,11 +47,11 @@ a{
 
 .header{
     width: 100%;
-    height: 1000px;
+    height: 1129px;
     text-align: center;
-    background-image: url("../img/top-img1.png");
+    background-image: url("https://s1.ax1x.com/2022/11/24/zGv1b9.png");
     background-size: cover;
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
 }
 
 #hd_word{
@@ -62,6 +62,7 @@ a{
 }
 
 #aside{
+    margin-top: 10px;
     float: left;
     width: 300px;
     height: 300px;
@@ -98,10 +99,16 @@ img{
 }
 
 #content{
+    margin-top: 10px;
     float: right;
     width: 680px;
     height: 1000px;
-    background-color: #ecebeb;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#mc{
+    margin: 10px 10px;
 }
 
 #footer {
