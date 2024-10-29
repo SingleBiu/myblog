@@ -2,7 +2,7 @@
  * @Author: SingleBiu
  * @Date: 2022-12-19 14:12:33
  * @LastEditors: SingleBiu
- * @LastEditTime: 2024-10-21 21:36:49
+ * @LastEditTime: 2024-10-29 16:49:39
  * @Description: file content
 -->
 <!DOCTYPE html>
@@ -54,12 +54,10 @@
         <div id="content">
             <div id="mc">
                 <h3><a href="mc.html">我的世界开服教程</a></h3>
-                <!-- <button value="下载文件" onclick="download()">下载文件</button>
-                <script type="text/javascript">
-                    function download(){
-                        window.location.href="/downloadfile1";
-                    }
-                </script> -->
+                <form action="/uploadfile" enctype="multipart/form-data" method="post">
+                    <input type="file" name="file" />
+                    <input type="submit" />
+                </form>
             </div>
         </div>
     </div>
